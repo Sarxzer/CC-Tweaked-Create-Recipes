@@ -1,0 +1,30 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "ABBBA",
+        "BCDCB",
+        "BDCDB",
+        "BCECB",
+        "ABBBA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/iron"
+        },
+        "B": {
+            "tag": "forge:plates/iron"
+        },
+        "C": {
+            "tag": "forge:plates/copper"
+        },
+        "D": {
+            "item": "create:electron_tube"
+        },
+        "E": {
+            "item": "create:precision_mechanism"
+        }
+    },
+    "result": {
+        "item": "computercraft:computer_normal"
+    }
+}
