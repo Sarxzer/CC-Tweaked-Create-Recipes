@@ -1,0 +1,54 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": [
+        { "item": "computercraft:computer_normal" }
+    ],
+    "transitionalItem": { 
+        "item": "computercraft:computer_normal" 
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                { "item": "computercraft:computer_normal" },
+                { "tag": "forge:ingots/brass" }
+            ],
+            "results": [{ "item": "computercraft:computer_normal" }]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                { "item": "computercraft:computer_normal" },
+                { "tag": "forge:plates/brass" }
+            ],
+            "results": [{ "item": "computercraft:computer_normal" }]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                { "item": "computercraft:computer_normal" },
+                { "tag": "forge:plates/gold" }
+            ],
+            "results": [{ "item": "computercraft:computer_normal" }]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                { "item": "computercraft:computer_normal" },
+                { "item": "create:electron_tube" }
+            ],
+            "results": [{ "item": "computercraft:computer_normal" }]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                { "item": "computercraft:computer_normal" },
+                { "item": "create:precision_mechanism" }
+            ],
+            "results": [{ "item": "computercraft:computer_normal" }]
+        }
+    ],
+    "results": [
+        { "item": "computercraft:computer_advanced" }
+    ]
+}

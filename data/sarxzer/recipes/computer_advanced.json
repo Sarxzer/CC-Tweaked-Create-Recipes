@@ -1,0 +1,30 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "ABBBA",
+        "BCDCB",
+        "BDCDB",
+        "BECEB",
+        "ABBBA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/brass"
+        },
+        "B": {
+            "tag": "forge:plates/brass"
+        },
+        "C": {
+            "tag": "forge:plates/gold"
+        },
+        "D": {
+            "item": "create:electron_tube"
+        },
+        "E": {
+            "item": "create:precision_mechanism"
+        }
+    },
+    "result": {
+        "item": "computercraft:computer_advanced"
+    }
+}
