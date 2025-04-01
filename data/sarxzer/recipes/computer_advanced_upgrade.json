@@ -50,5 +50,6 @@
     ],
     "results": [
         { "item": "computercraft:computer_advanced" }
-    ]
+    ],
+    "loops": 1
 }

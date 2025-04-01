@@ -1,0 +1,30 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": [
+        { "item": "computercraft:computer_normal" }
+    ],
+    "transitionalItem": { 
+        "item": "computercraft:pocket_computer_normal" 
+    },
+    "sequence": [
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                { "item": "computercraft:computer_normal" }
+            ],
+            "results": [{ "item": "computercraft:pocket_computer_normal" }]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                { "item": "computercraft:pocket_computer_normal" },
+                { "tag": "forge:glass" }
+            ],
+            "results": [{ "item": "computercraft:pocket_computer_normal" }]
+        }
+    ],
+    "results": [
+        { "item": "computercraft:pocket_computer_normal" }
+    ],
+    "loops": 1
+}
